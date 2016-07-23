@@ -1,0 +1,32 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+
+html {
+    overflow: hidden;
+}
+
+body {
+    font: 100% $font-stack;
+    color: $primary-color;
+}
+
+.container {
+    padding-top: 30%;
+    display: flex;
+    margin: auto;
+}
+
+.quote {
+    display: inherit;
+    margin: auto;
+    font: 24px 'AlexBrushRegular';
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .second {
+        opacity: 0;
+    }
+    .author {
+        opacity: 0;
+    }
+}
