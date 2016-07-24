@@ -1,24 +1,28 @@
 $font-stack:    Helvetica, sans-serif;
-$primary-color: #333;
+$primary-text: rgba(0,0,0,0.87);
+$secondary-text: rgba(0,0,0,0.54);
+$hint-text: rgba(0,0,0,0.38);
 
 html {
-    overflow: hidden;
+    overflow: scroll;
 }
 
 body {
     font: 100% $font-stack;
-    color: $primary-color;
+    color: $primary-text;
 }
 
 .container {
-    padding-top: 30%;
+    padding-top: 150px;
     display: flex;
+    flex-direction: column;
     margin: auto;
 }
 
 .quote {
     display: inherit;
     margin: auto;
+    color: $secondary-text;
     font: 24px 'AlexBrushRegular';
     flex-direction: column;
     justify-content: center;
@@ -29,4 +33,13 @@ body {
     .author {
         opacity: 0;
     }
+}
+
+.button {
+    padding: 4px 28px 4px 28px;
+    border: 1px solid $hint-text;
+    margin: auto;
+    border-radius: 4px;
+    display: inherit;
+    opacity: 0;
 }
