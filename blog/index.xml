@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Zhenjie Ruan&#39;s Tech Vault</title>
+    <link>https://zhenjieruan.github.io/blog/</link>
+    <description>Recent content in Blogs on Zhenjie Ruan&#39;s Tech Vault</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Sep 2016 01:59:00 -0400</lastBuildDate>
+    <atom:link href="https://zhenjieruan.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>React Native In Action</title>
+      <link>https://zhenjieruan.github.io/blog/react-native-in-action</link>
+      <pubDate>Tue, 13 Sep 2016 01:59:00 -0400</pubDate>
+      
+      <guid>https://zhenjieruan.github.io/blog/react-native-in-action</guid>
+      <description>
+
+&lt;h1 id=&#34;react-native-in-action&#34;&gt;React Native In Action&lt;/h1&gt;
+
+&lt;h2 id=&#34;building-a-social-network-app-for-startups-using-react-native&#34;&gt;Building A Social Network App For Startups Using React Native&lt;/h2&gt;
+
+&lt;h3 id=&#34;intro&#34;&gt;Intro&lt;/h3&gt;
+
+&lt;p&gt;What is Liaoyuan&lt;/p&gt;
+
+&lt;h3 id=&#34;why-react-native&#34;&gt;Why React Native&lt;/h3&gt;
+
+&lt;h3 id=&#34;reactive-programming-in-react-native-using-mobx&#34;&gt;Reactive Programming In React Native Using Mobx&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Mobx vs Redux
+
+&lt;ul&gt;
+&lt;li&gt;Pros and Cons&lt;/li&gt;
+&lt;li&gt;Why we ditched Redux&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;pros-of-using-react-native&#34;&gt;Pros of Using React Native&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;easy for web developers to pick up app development quickly&lt;/li&gt;
+&lt;li&gt;Android version of app gets to a usable state relatively easy&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;cons-of-using-react-native&#34;&gt;Cons of Using React Native&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Unstable APIs&lt;/li&gt;
+&lt;li&gt;Performance Issue&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
