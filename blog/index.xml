@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Zhenjie Ruan&#39;s Tech Vault</title>
-    <link>https://zhenjieruan.github.io/index.xml</link>
-    <description>Recent content on Zhenjie Ruan&#39;s Tech Vault</description>
+    <title>Blogs on Zhenjie Ruan&#39;s Tech Vault</title>
+    <link>https://zhenjieruan.github.io/blog/index.xml</link>
+    <description>Recent content in Blogs on Zhenjie Ruan&#39;s Tech Vault</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 05 Jan 2017 02:00:09 +0800</lastBuildDate>
-    <atom:link href="https://zhenjieruan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zhenjieruan.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Learning Note</title>
@@ -37,20 +37,6 @@ is that you should always set &lt;code&gt;tabstop=8&lt;/code&gt; because all oth
 make your file appear wrong in other places. Set &lt;code&gt;softtabstop&lt;/code&gt; and &lt;code&gt;shiftwidth&lt;/code&gt;
 to your desired tab value. I personally like setting the &lt;code&gt;expandtab&lt;/code&gt; option, which
 will insert spaces instead of tab, so that formatting will never be messed up.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>about</title>
-      <link>https://zhenjieruan.github.io/about/</link>
-      <pubDate>Tue, 13 Sep 2016 02:08:07 -0400</pubDate>
-      
-      <guid>https://zhenjieruan.github.io/about/</guid>
-      <description>
-
-&lt;h2 id=&#34;hi-there&#34;&gt;Hi there&lt;/h2&gt;
-
-&lt;p&gt;My name is Zhenjie(Jason) Ruan, currently a senior double majoring in Computer Science and Mathematics at Boston University and a part-time SDE at &lt;a href=&#34;https://liaoyuan.io&#34;&gt;Liaoyuan.io&lt;/a&gt;, building apps using React Native. I love CS and programming in general but my particular interests are in Distributed Systems, Operating Systems and Web Development. This blog serves as a place for me to put my random (if not crazy) thoughts and learning notes, as well as a place for me to share my experience to the world. Hope you guys will find something interesting here.&lt;/p&gt;
 </description>
     </item>
     
