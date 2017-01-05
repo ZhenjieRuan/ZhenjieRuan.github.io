@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Diary on Zhenjie Ruan&#39;s Tech Vault</title>
+    <link>https://zhenjieruan.github.io/tags/diary/index.xml</link>
+    <description>Recent content in Diary on Zhenjie Ruan&#39;s Tech Vault</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://zhenjieruan.github.io/tags/diary/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Learning Note</title>
+      <link>https://zhenjieruan.github.io/blog/010517</link>
+      <pubDate>Thu, 05 Jan 2017 02:00:09 +0800</pubDate>
+      
+      <guid>https://zhenjieruan.github.io/blog/010517</guid>
+      <description>
+
+&lt;h2 id=&#34;python-set&#34;&gt;Python Set&lt;/h2&gt;
+
+&lt;p&gt;While doing coding challenges on leetcode, specifically &amp;ndash;
+&lt;a href=&#34;https://leetcode.com/problemset/algorithms/&#34;&gt;127.Word Ladder&lt;/a&gt;,
+I found out some operation for python &lt;code&gt;set&lt;/code&gt; that I never know.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;a = set([a,b,c,d])
+b = set([b,d])
+a &amp;amp; b # This will produce set([b,d])
+      # another way to do this is self.intersection(others)
+a -= b # This will turn a into set([a,c])
+       # another way to do this is self.difference_update(others)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;When doing vim setup, I&amp;rsquo;m having trouble getting tab setting right,
+and resolved the issue after consulting the doc. So the rule of thumb
+is that you should always set &lt;code&gt;tabstop=8&lt;/code&gt; because all other values will
+make your file appear wrong in other places. Set &lt;code&gt;softtabstop&lt;/code&gt; and &lt;code&gt;shiftwidth&lt;/code&gt;
+to your desired tab value. I personally like setting the &lt;code&gt;expandtab&lt;/code&gt; option, which
+will insert spaces instead of tab, so that formatting will never be messed up.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
