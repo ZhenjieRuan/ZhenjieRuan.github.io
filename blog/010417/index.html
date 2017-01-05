@@ -14,10 +14,10 @@
 <title>
 
 
-     Learning Note 1 
+     Learning Note 
 
 </title>
-<link rel="canonical" href="https://zhenjieruan.github.io/blog/010517">
+<link rel="canonical" href="https://zhenjieruan.github.io/blog/010417">
 
 
 <script type="text/javascript">
@@ -116,41 +116,40 @@
                 <div class="title-container">
                     <div class="page-heading">
 
-    Learning Note 1
+    Learning Note
 
 </div>
 
                     <div class="initials"><a href="https://zhenjieruan.github.io/"></a></div>
                 </div>
                 <div class="meta">
-                    <div class="date" title="Thu Jan 5 2017 22:35:25 PDT">Jan 5, 2017</div>
+                    <div class="date" title="Thu Jan 5 2017 02:00:09 PDT">Jan 5, 2017</div>
                     <div class="reading-time"><div class="middot"></div>1 minute read</div>
                 </div>
             </div>
             <div class="markdown">
                 
 
-<h4 id="python">Python</h4>
+<h4 id="python-set">Python Set</h4>
 
-<p>As we all know, python string is immutable, so here is a little trick to reverse
-python string:</p>
+<p>While doing coding challenges on leetcode, specifically &ndash;
+<a href="https://leetcode.com/problemset/algorithms/">127.Word Ladder</a>,
+I found out some operation for python <code>set</code> that I never know.</p>
 
-<pre><code class="language-python">a = '123123'
-a = a[::-1] # became 321321
+<pre><code class="language-python">a = set([a,b,c,d])
+b = set([b,d])
+a &amp; b # This will produce set([b,d])
+      # another way to do this is self.intersection(others)
+a -= b # This will turn a into set([a,c])
+       # another way to do this is self.difference_update(others)
 </code></pre>
 
-<p>the syntax here means a[from:to:step]</p>
-
-<h4 id="vim">Vim</h4>
-
-<p>Using verbose before set can be useful to figure out why
-some setting in .vimrc is not working, used this to solve
-tab setting issue.</p>
-
-<h3 id="git">Git</h3>
-
-<p>git submodule can be used to add another git repo into current
-git repo.</p>
+<p>When doing vim setup, I&rsquo;m having trouble getting tab setting right,
+and resolved the issue after consulting the doc. So the rule of thumb
+is that you should always set <code>tabstop=8</code> because all other values will
+make your file appear wrong in other places. Set <code>softtabstop</code> and <code>shiftwidth</code>
+to your desired tab value. I personally like setting the <code>expandtab</code> option, which
+will insert spaces instead of tab, so that formatting will never be messed up.</p>
 
                 <br>
                 <p><a href="https://zhenjieruan.github.io/blog/">Back to posts</a></p>

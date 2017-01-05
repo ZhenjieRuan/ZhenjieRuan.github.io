@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vim on Zhenjie Ruan&#39;s Tech Vault</title>
+    <link>https://zhenjieruan.github.io/tags/vim/index.xml</link>
+    <description>Recent content in Vim on Zhenjie Ruan&#39;s Tech Vault</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://zhenjieruan.github.io/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Learning Note 1</title>
+      <link>https://zhenjieruan.github.io/blog/010517</link>
+      <pubDate>Thu, 05 Jan 2017 22:35:25 +0800</pubDate>
+      
+      <guid>https://zhenjieruan.github.io/blog/010517</guid>
+      <description>
+
+&lt;h4 id=&#34;python&#34;&gt;Python&lt;/h4&gt;
+
+&lt;p&gt;As we all know, python string is immutable, so here is a little trick to reverse
+python string:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;a = &#39;123123&#39;
+a = a[::-1] # became 321321
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;the syntax here means a[from:to:step]&lt;/p&gt;
+
+&lt;h4 id=&#34;vim&#34;&gt;Vim&lt;/h4&gt;
+
+&lt;p&gt;Using verbose before set can be useful to figure out why
+some setting in .vimrc is not working, used this to solve
+tab setting issue.&lt;/p&gt;
+
+&lt;h3 id=&#34;git&#34;&gt;Git&lt;/h3&gt;
+
+&lt;p&gt;git submodule can be used to add another git repo into current
+git repo.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
